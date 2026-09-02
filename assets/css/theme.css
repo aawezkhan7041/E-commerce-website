@@ -1,0 +1,145 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* Fonts */
+    --font-heading: 'Integral CF', sans-serif;
+    --font-body: 'Satoshi', sans-serif;
+    --line-height-tight: 1.05;
+    --line-height-normal: 1.45;
+    
+    /* Colors */
+    --color-primary: #000000;
+    --color-white: #ffffff;
+    --color-bg-light: #f2f0f1;
+    --color-card-bg: #f0eeed;
+    --color-footer-bg: #f0f0f0;
+    --color-text-main: #000000;
+    --color-text-muted: rgba(0, 0, 0, 0.6);
+    --color-border: #e6e6e6;
+    --color-badge-bg: #ffebeb;
+    --color-badge-text: #ff3333;
+    --color-star: #ffc633;
+    --color-verified: #01ab31;
+
+    /* Sizing & Radii */
+    --container-max-w: 1240px;
+    --radius-pill: 62px;
+    --radius-card: 20px;
+    --radius-box: 40px;
+    --radius-badge: 62px;
+    --transition-fast: all 0.25s ease-in-out;
+
+    --img-contain-fit: contain;
+    --img-cover-fit: cover;
+}
+
+html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--color-white);
+    color: var(--color-text-main);
+    line-height: var(--line-height-normal);
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: var(--transition-fast);
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    max-width: var(--container-max-w);
+    margin-inline: auto;
+    padding-inline: 16px;
+}
+
+/* Flex Presets */
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-start-center {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-center { text-align: center; }
+.relative { position: relative; }
+.w-100 { width: 100%; }
+
+/* Buttons & Invert Hover */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-pill);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition-fast);
+    border: 1px solid transparent;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border-color: var(--color-primary);
+    padding: 16px 54px;
+}
+
+.btn-primary:hover {
+    background-color: var(--color-white);
+    color: var(--color-primary);
+}
+
+.btn-white {
+    background-color: var(--color-white);
+    color: var(--color-primary);
+    border: 1px solid var(--color-border);
+    padding: 16px 54px;
+}
+
+.btn-white:hover {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border-color: var(--color-primary);
+}
