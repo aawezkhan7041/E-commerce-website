@@ -264,7 +264,12 @@
     top: 8%;
     right: 6%;
 }
-
+.stat-number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000;
+  display: block;
+}
 .sparkle-small {
     width: 36px;
     height: 36px;
@@ -372,10 +377,19 @@
 }
 
 .stars {
-    color: var(--color-star);
-    letter-spacing: 1px;
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
 }
 
+.stars .star {
+  width: 18px;
+  height: 18px;
+}
+
+.stars .star.full {
+  fill: #f59e0b; /* गोल्डन पीला रंग */
+}
 .score {
     font-weight: 600;
 }
@@ -1042,7 +1056,8 @@
     }
 
     .stat-box p {
-        font-size: 14px;
+        font-size: 24px;
+        font-weight: 700;
     }
 
     .stat-box.full-span {

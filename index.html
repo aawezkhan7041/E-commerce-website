@@ -8,6 +8,7 @@
     <title>
         SHOP.CO | Find Clothes That Matches Your Style
     </title>
+    <meta name="description" content="Shop exclusive custom t-shirts and premium branded fashion online. Discover top styles, unique apparel collections, and modern streetwear at best prices." />
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
@@ -34,7 +35,7 @@
                     </a>
                 </p>
                 <button aria-label="Close Announcement" class="close-btn" type="button">
-                    <img alt="close" src="./assets/icon/cross.svg" />
+                    <img alt="close" src="/icon/cross.svg" />
                 </button>
             </div>
         </div>
@@ -75,18 +76,18 @@
                         </li>
                     </ul>
                     <div class="nav-search flex-start-center">
-                        <img alt="search" src="./assets/icon/search.svg" />
+                        <img alt="search" src="/icon/search.svg" />
                         <input placeholder="Search for products..." type="search" />
                     </div>
                     <div class="nav-actions flex-start-center">
                         <button aria-label="Search" class="mobile-search-btn" type="button">
-                            <img alt="Search" src="./assets/icon/search.svg" />
+                            <img alt="Search" src="/icon/search.svg" />
                         </button>
                         <a aria-label="Shopping Cart" href="#">
-                            <img alt="Cart" src="./assets/icon/cart.svg" />
+                            <img alt="Cart" src="/icon/cart.svg" />
                         </a>
                         <a aria-label="User Account" href="#">
-                            <img alt="Profile" src="./assets/icon/profile-icon.svg" />
+                            <img alt="Profile" src="/icon/profile-icon.svg" />
                         </a>
                     </div>
                 </nav>
@@ -109,28 +110,30 @@
                         Shop Now
                     </a>
                     <div class="stats-group flex-center">
-                        <div class="stat-box text-center">
-                            <h3>
+                        <div class="stat-box text-center ">
+                            <div class="stat-number">
+                            <p>
                                 200+
-                            </h3>
+                            </p>
+                            </div>
                             <p>
                                 International Brands
                             </p>
                         </div>
                         <div class="stat-separator">
                         </div>
-                        <div class="stat-box text-center">
-                            <h3>
+                        <div class="stat-box text-center stat-number">
+                            <p>
                                 2,000+
-                            </h3>
+                            </p>
                             <p>
                                 High-Quality Products
                             </p>
                         </div>
-                        <div class="stat-box full-span text-center">
-                            <h3>
+                        <div class="stat-box full-span text-center stat-number">
+                            <p>
                                 30,000+
-                            </h3>
+                            </p>
                             <p>
                                 Happy Customers
                             </p>
@@ -139,9 +142,9 @@
                 </div>
                 <!-- Hero Visual Box -->
                 <div class="hero-image-box relative flex-center">
-                    <img alt="Fashion Models" class="hero-models-img" src="./assets/images/Rectangle 2.webp" />
-                    <img alt="sparkle" class="sparkle-shape sparkle-big" src="./assets/icon/star-big.svg.svg" />
-                    <img alt="sparkle" class="sparkle-shape sparkle-small" src="./assets/icon/star-big.svg.svg" />
+                    <img alt="Fashion Models" class="hero-models-img" src="/images/Rectangle 2.webp" fetchpriority="high"/>
+                    <img alt="sparkle" class="sparkle-shape sparkle-big" src="/icon/star-big.svg.svg" />
+                    <img alt="sparkle" class="sparkle-shape sparkle-small" src="/icon/star-big.svg.svg" />
                 </div>
             </div>
         </section>
@@ -149,19 +152,19 @@
         <section class="brands-strip">
             <div class="container brands-container flex-center">
                 <span class="brand-name brand-versace">
-                    VERSACE
+                    <a href="https://www.versace.com" target="_blank" rel="noopener noreferrer nofollow">Versace</a>
                 </span>
                 <span class="brand-name brand-zara">
-                    ZARA
+                    <a href="https://www.zara.com" target="_blank" rel="noopener noreferrer nofollow">Zara</a>
                 </span>
                 <span class="brand-name brand-gucci">
-                    GUCCI
+                    <a href="https://www.gucci.com" target="_blank" rel="noopener noreferrer nofollow">Gucci</a>
                 </span>
                 <span class="brand-name brand-prada">
-                    PRADA
+                    <a href="https://www.prada.com" target="_blank" rel="noopener noreferrer nofollow">Prada</a>
                 </span>
                 <span class="brand-name brand-ck">
-                    Calvin Klein
+                    <a href="https://www.calvinklein.us" target="_blank" rel="noopener noreferrer nofollow">Calvin Klein</a>
                 </span>
             </div>
         </section>
@@ -176,14 +179,26 @@
                         <div class="swiper-slide">
                             <div class="product-card flex-col">
                                 <div class="product-poster flex-center">
-                                    <img alt="T-shirt with Tape Details" src="./assets/images/black-t-shirt.webp" />
+                                    <img alt="T-shirt with Tape Details" src="/images/black-t-shirt.webp" />
                                 </div>
                                 <h3 class="product-name">
                                     T-shirt with Tape Details
                                 </h3>
                                 <div class="rating-bar flex-start-center">
-                                    <span class="stars">
-                                        &starf;&starf;&starf;&starf;&frac12;
+                                     <span class="stars">
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star half" viewBox="0 0 24 24">
+                                        <defs>
+                                        <linearGradient id="half-fill">
+                                            <stop offset="50%" stop-color="#f59e0b"/>
+                                            <stop offset="50%" stop-color="#e2e8f0"/>
+                                        </linearGradient>
+                                        </defs>
+                                        <path fill="url(#half-fill)" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                                    </svg>
                                     </span>
                                     <span class="score">
                                         4.5/
@@ -202,14 +217,32 @@
                         <div class="swiper-slide">
                             <div class="product-card flex-col">
                                 <div class="product-poster flex-center">
-                                    <img alt="Skinny Fit Jeans" src="./assets/images/pent-blue-jeans.webp" />
+                                    <img alt="Skinny Fit Jeans" src="/images/pent-blue-jeans.webp" />
                                 </div>
                                 <h3 class="product-name">
                                     Skinny Fit Jeans
                                 </h3>
                                 <div class="rating-bar flex-start-center">
                                     <span class="stars">
-                                        &starf;&starf;&starf;&frac12;&star;
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star half" viewBox="0 0 24 24">
+                                        <defs>
+                                        <linearGradient id="half-fill">
+                                            <stop offset="50%" stop-color="#f59e0b"/>
+                                            <stop offset="50%" stop-color="#e2e8f0"/>
+                                        </linearGradient>
+                                        </defs>
+                                        <path fill="url(#half-fill)" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                                    </svg>
+                                    </span>
+                                    <span class="score">
+                                        4.5/
+                                        <span>
+                                            5
+                                        </span>
                                     </span>
                                     <span class="score">
                                         3.5/
@@ -234,14 +267,32 @@
                         <div class="swiper-slide">
                             <div class="product-card flex-col">
                                 <div class="product-poster flex-center">
-                                    <img alt="Checkered Shirt" src="./assets/images/check-t-shirt.webp" />
+                                    <img alt="Checkered Shirt" src="/images/check-t-shirt.webp" />
                                 </div>
                                 <h3 class="product-name">
                                     Checkered Shirt
                                 </h3>
                                 <div class="rating-bar flex-start-center">
                                     <span class="stars">
-                                        &starf;&starf;&starf;&starf;&frac12;
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star half" viewBox="0 0 24 24">
+                                        <defs>
+                                        <linearGradient id="half-fill">
+                                            <stop offset="50%" stop-color="#f59e0b"/>
+                                            <stop offset="50%" stop-color="#e2e8f0"/>
+                                        </linearGradient>
+                                        </defs>
+                                        <path fill="url(#half-fill)" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                                    </svg>
+                                    </span>
+                                    <span class="score">
+                                        4.5/
+                                        <span>
+                                            5
+                                        </span>
                                     </span>
                                     <span class="score">
                                         4.5/
@@ -260,14 +311,32 @@
                         <div class="swiper-slide">
                             <div class="product-card flex-col">
                                 <div class="product-poster flex-center">
-                                    <img alt="Sleeve Striped T-shirt" src="./assets/images/oreng-black-tesart.webp" />
+                                    <img alt="Sleeve Striped T-shirt" src="/images/oreng-black-tesart.webp" />
                                 </div>
                                 <h3 class="product-name">
                                     Sleeve Striped T-shirt
                                 </h3>
                                 <div class="rating-bar flex-start-center">
                                     <span class="stars">
-                                        &starf;&starf;&starf;&starf;&frac12;
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star half" viewBox="0 0 24 24">
+                                        <defs>
+                                        <linearGradient id="half-fill">
+                                            <stop offset="50%" stop-color="#f59e0b"/>
+                                            <stop offset="50%" stop-color="#e2e8f0"/>
+                                        </linearGradient>
+                                        </defs>
+                                        <path fill="url(#half-fill)" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                                    </svg>
+                                    </span>
+                                    <span class="score">
+                                        4.5/
+                                        <span>
+                                            5
+                                        </span>
                                     </span>
                                     <span class="score">
                                         4.5/
@@ -312,14 +381,32 @@
                         <div class="swiper-slide">
                             <div class="product-card flex-col">
                                 <div class="product-poster flex-center">
-                                    <img alt="Vertical Striped Shirt" src="./assets/images/green-t-shirt.webp" />
+                                    <img alt="Vertical Striped Shirt" src="/images/green-t-shirt.webp" />
                                 </div>
                                 <h3 class="product-name">
                                     Vertical Striped Shirt
                                 </h3>
                                 <div class="rating-bar flex-start-center">
                                     <span class="stars">
-                                        &starf;&starf;&starf;&starf;&starf;
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star half" viewBox="0 0 24 24">
+                                        <defs>
+                                        <linearGradient id="half-fill">
+                                            <stop offset="50%" stop-color="#f59e0b"/>
+                                            <stop offset="50%" stop-color="#e2e8f0"/>
+                                        </linearGradient>
+                                        </defs>
+                                        <path fill="url(#half-fill)" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                                    </svg>
+                                    </span>
+                                    <span class="score">
+                                        4.5/
+                                        <span>
+                                            5
+                                        </span>
                                     </span>
                                     <span class="score">
                                         5.0/
@@ -344,14 +431,32 @@
                         <div class="swiper-slide">
                             <div class="product-card flex-col">
                                 <div class="product-poster flex-center">
-                                    <img alt="Courage Graphic T-shirt" src="./assets/images/orange-t-shirt.webp" />
+                                    <img alt="Courage Graphic T-shirt" src="/images/orange-t-shirt.webp" />
                                 </div>
                                 <h3 class="product-name">
                                     Courage Graphic T-shirt
                                 </h3>
                                 <div class="rating-bar flex-start-center">
                                     <span class="stars">
-                                        &starf;&starf;&starf;&starf;&star;
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star half" viewBox="0 0 24 24">
+                                        <defs>
+                                        <linearGradient id="half-fill">
+                                            <stop offset="50%" stop-color="#f59e0b"/>
+                                            <stop offset="50%" stop-color="#e2e8f0"/>
+                                        </linearGradient>
+                                        </defs>
+                                        <path fill="url(#half-fill)" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                                    </svg>
+                                    </span>
+                                    <span class="score">
+                                        4.5/
+                                        <span>
+                                            5
+                                        </span>
                                     </span>
                                     <span class="score">
                                         4.0/
@@ -370,14 +475,32 @@
                         <div class="swiper-slide">
                             <div class="product-card flex-col">
                                 <div class="product-poster flex-center">
-                                    <img alt="Loose Fit Bermuda Shorts" src="./assets/images/denim-shorts.webp" />
+                                    <img alt="Loose Fit Bermuda Shorts" src="/images/denim-shorts.webp" />
                                 </div>
                                 <h3 class="product-name">
                                     Loose Fit Bermuda Shorts
                                 </h3>
                                 <div class="rating-bar flex-start-center">
                                     <span class="stars">
-                                        &starf;&starf;&starf;&star;&star;
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star half" viewBox="0 0 24 24">
+                                        <defs>
+                                        <linearGradient id="half-fill">
+                                            <stop offset="50%" stop-color="#f59e0b"/>
+                                            <stop offset="50%" stop-color="#e2e8f0"/>
+                                        </linearGradient>
+                                        </defs>
+                                        <path fill="url(#half-fill)" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                                    </svg>
+                                    </span>
+                                    <span class="score">
+                                        4.5/
+                                        <span>
+                                            5
+                                        </span>
                                     </span>
                                     <span class="score">
                                         3.0/
@@ -396,14 +519,32 @@
                         <div class="swiper-slide">
                             <div class="product-card flex-col">
                                 <div class="product-poster flex-center">
-                                    <img alt="Faded Skinny Jeans" src="./assets/images/pent-black-jeans.webp" />
+                                    <img alt="Faded Skinny Jeans" src="/images/pent-black-jeans.webp" />
                                 </div>
                                 <h3 class="product-name">
                                     Faded Skinny Jeans
                                 </h3>
                                 <div class="rating-bar flex-start-center">
                                     <span class="stars">
-                                        &starf;&starf;&starf;&starf;&frac12;
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star full" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                    <svg class="star half" viewBox="0 0 24 24">
+                                        <defs>
+                                        <linearGradient id="half-fill">
+                                            <stop offset="50%" stop-color="#f59e0b"/>
+                                            <stop offset="50%" stop-color="#e2e8f0"/>
+                                        </linearGradient>
+                                        </defs>
+                                        <path fill="url(#half-fill)" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                                    </svg>
+                                    </span>
+                                    <span class="score">
+                                        4.5/
+                                        <span>
+                                            5
+                                        </span>
                                     </span>
                                     <span class="score">
                                         4.5/
@@ -437,38 +578,50 @@
                 </h2>
                 <div class="dress-style-grid">
                     <div class="dress-style-row">
+                        
                         <div class="dress-card card-small">
+                            <a href="https://www.amazon.in/Mens-Casual-Shirts/s?k=Men%27s+Casual+Shirts">
                             <h3>
                                 Casual
                             </h3>
-                            <img alt="Casual Style" class="casual" src="./assets/images/Casual.webp" />
+                            <img alt="Casual Style" class="casual" src="/images/Casual.webp"/>
+                            </a>
                         </div>
+                        
+                        
+                        
                         <div class="dress-card card-large">
+                            <a href="https://www.amazon.in/b?ie=UTF8&node=14630939031">
                             <h3>
                                 Formal
                             </h3>
-                            <img alt="Formal Style" class="formal" src="./assets/images/Formal.webp" />
+                            <img alt="Formal Style" class="formal" src="/images/Formal.webp" />
+                            </a>
                         </div>
+                        
                     </div>
                     <div class="dress-style-row">
                         <div class="dress-card card-large">
+                            <a href="https://www.flipkart.com/womens-dresses/party~occasion/pr?sid=clo,odx,maj,jhy">
                             <h3>
                                 Party
                             </h3>
-                            <img alt="Party Style" src="./assets/images/Party.webp" />
+                            <img alt="Party Style" src="/images/Party.webp" />
+                            </a>
                         </div>
                         <div class="dress-card card-small">
+                            <a href="https://www.flipkart.com/q/gym-wear">
                             <h3>
                                 Gym
                             </h3>
-                            <img alt="Gym Style" src="./assets/images/GYM.webp" />
+                            <img alt="Gym Style" src="/images/GYM.webp" />
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Section 4: OUR HAPPY CUSTOMERS -->
-        <!-- Section: OUR HAPPY CUSTOMERS -->
        <section class="customers-section">
             <div class="container">
                 <div class="customers-header flex-between">
@@ -722,25 +875,25 @@
                         </p>
                         <div class="social-icons flex-start-center">
                             <a aria-label="Twitter" class="social-link flex-center" href="#">
-                                <img alt="Twitter" src="./assets/icon/tutor.svg" />
+                                <img alt="Twitter" src="/icon/tutor.svg" />
                             </a>
                             <a aria-label="Facebook" class="social-link flex-center" href="#">
-                                <img alt="Facebook" src="./assets/icon/facebook.svg" />
+                                <img alt="Facebook" src="/icon/facebook.svg" />
                             </a>
-                            <a aria-label="Instagram" class="social-link flex-center" href="#">
-                                <img alt="Instagram" src="./assets/icon/logo-instagram 1.svg" />
+                            <a aria-label="Instagram" class="social-link flex-center" href="https://www.instagram.com/aawez_khan_313/" target="_blank" rel="noopener noreferrer">
+                                <img alt="Instagram" src="/icon/logo-instagram 1.svg" />
                             </a>
-                            <a aria-label="GitHub" class="social-link flex-center" href="#">
-                                <img alt="GitHub" src="./assets/icon/logo-github 1.svg" />
+                            <a aria-label="GitHub" class="social-link flex-center" href="https://github.com/aawezkhan7041" target="_blank" rel="noopener noreferrer">
+                                <img alt="GitHub" src="/icon/logo-github 1.svg" />
                             </a>
                         </div>
                     </div>
                     <!-- Footer Navigation Columns -->
                     <div class="footer-links-grid">
                         <div class="footer-col">
-                            <h4>
+                            <p>
                                 COMPANY
-                            </h4>
+                            </p>
                             <ul>
                                 <li>
                                     <a href="#">
@@ -765,9 +918,9 @@
                             </ul>
                         </div>
                         <div class="footer-col">
-                            <h4>
+                            <p>
                                 HELP
-                            </h4>
+                            </p>
                             <ul>
                                 <li>
                                     <a href="#">
@@ -792,9 +945,9 @@
                             </ul>
                         </div>
                         <div class="footer-col">
-                            <h4>
+                            <p>
                                 FAQ
-                            </h4>
+                            </p>
                             <ul>
                                 <li>
                                     <a href="#">
@@ -819,9 +972,9 @@
                             </ul>
                         </div>
                         <div class="footer-col">
-                            <h4>
+                            <p>
                                 RESOURCES
-                            </h4>
+                            </p>
                             <ul>
                                 <li>
                                     <a href="#">
@@ -854,19 +1007,19 @@
                     </p>
                     <div class="payment-badges flex-start-center">
                         <div class="payment-card-badge flex-center">
-                            <img alt="Visa" src="./assets/icon/Visa.svg" />
+                            <img alt="Visa" src="/icon/Visa.svg" />
                         </div>
                         <div class="payment-card-badge flex-center">
-                            <img alt="MasterCard" src="./assets/icon/Mastercard.svg" />
+                            <img alt="MasterCard" src="/icon/Mastercard.svg" />
                         </div>
                         <div class="payment-card-badge flex-center">
-                            <img alt="PayPal" src="./assets/icon/Paypal.svg" />
+                            <img alt="PayPal" src="/icon/Paypal.svg" />
                         </div>
                         <div class="payment-card-badge flex-center">
-                            <img alt="Apple Pay" src="./assets/icon/apple Pay.svg" />
+                            <img alt="Apple Pay" src="/icon/apple Pay.svg" />
                         </div>
                         <div class="payment-card-badge flex-center">
-                            <img alt="Google Pay" src="./assets/icon/G Pay.svg" />
+                            <img alt="Google Pay" src="/icon/G Pay.svg" />
                         </div>
                     </div>
                 </div>
